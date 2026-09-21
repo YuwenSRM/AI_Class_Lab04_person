@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>邱超凡 · 个人作品集</title>
+  <meta name="description" content="邱超凡的个人作品集：软件工程专业学生，主要关注 AI 辅助开发与大语言模型技术。">
+  <meta name="theme-color" content="#fbfbfd">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&family=Space+Grotesk:wght@500;600&display=swap" rel="stylesheet">
+  <script src="js/theme.js"></script>
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+
+  <div class="site-shell">
+    <aside class="sidebar" aria-label="个人介绍与导航">
+      <div class="sidebar__top">
+        <a class="brand" href="#hero" aria-label="回到首页">
+          <img class="brand__avatar" src="assets/images/avatar.svg" alt="邱超凡的头像" width="56" height="56">
+          <span class="brand__text">
+            <strong>邱超凡</strong>
+            <span>软件工程专业学生</span>
+          </span>
+        </a>
+
+        <p class="sidebar__intro">
+          目前主要关注 AI 辅助开发与大语言模型技术。
+        </p>
+
+        <nav class="side-nav" aria-label="页面导航">
+          <a class="side-nav__link is-active" href="#hero" data-nav="hero"><span>01</span>首页</a>
+          <a class="side-nav__link" href="#projects" data-nav="projects"><span>02</span>作品</a>
+          <a class="side-nav__link" href="#about" data-nav="about"><span>03</span>关于我</a>
+          <a class="side-nav__link" href="#contact" data-nav="contact"><span>04</span>联系</a>
+        </nav>
+
+        <div class="sidebar__skills">
+          <p class="sidebar__label">技能</p>
+          <ul class="skill-list">
+            <li><span>技能</span>Python · Java · TypeScript · HTML/CSS</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="sidebar__bottom">
+        <button class="theme-toggle" type="button" data-theme-toggle aria-pressed="false" aria-label="切换到夜间模式">
+          <span class="theme-toggle__icon" aria-hidden="true"></span>
+          <span class="theme-toggle__label">日间模式</span>
+        </button>
+
+        <div class="sidebar__contact">
+          <p class="sidebar__label">联系方式</p>
+          <a class="sidebar__email" href="mailto:2698877387@qq.com">2698877387@qq.com</a>
+          <button class="copy-button" type="button" data-copy="2698877387@qq.com">
+            <span class="copy-label">复制邮箱</span>
+          </button>
+        </div>
+        <p class="sidebar__meta">所在地：中国·广州<br>状态：广州软件学院-在读</p>
+      </div>
+    </aside>
+
+    <div class="mobile-bar">
+      <a class="mobile-bar__brand" href="#hero">邱超凡 <small>作品集</small></a>
+      <div class="mobile-bar__actions">
+        <button class="theme-toggle theme-toggle--compact" type="button" data-theme-toggle aria-pressed="false" aria-label="切换到夜间模式">
+          <span class="theme-toggle__icon" aria-hidden="true"></span>
+        </button>
+        <button class="mobile-menu-button" type="button" id="mobileMenuButton" aria-controls="mobileNav" aria-expanded="false" aria-label="打开导航菜单">
+          <span class="mobile-bar__icon" aria-hidden="true"><i></i><i></i></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="mobile-menu" id="mobileNav" aria-hidden="true" inert>
+      <nav class="mobile-menu__nav" aria-label="移动端页面导航">
+        <a href="#hero" data-nav="hero"><span>01</span>首页</a>
+        <a href="#projects" data-nav="projects"><span>02</span>作品</a>
+        <a href="#about" data-nav="about"><span>03</span>关于我</a>
+        <a href="#contact" data-nav="contact"><span>04</span>联系</a>
+      </nav>
+      <div class="mobile-menu__footer">
+        <a href="mailto:2698877387@qq.com">2698877387@qq.com</a>
+        <button class="copy-button" type="button" data-copy="2698877387@qq.com">
+          <span class="copy-label">复制邮箱</span>
+        </button>
+      </div>
+      <ul class="mobile-menu__links">
+        <li><span>所在地</span>中国·广州</li>
+        <li><span>状态</span>广州软件学院-在读</li>
+      </ul>
+    </div>
+
+    <main class="main" id="main">
+      <section class="hero" id="hero" data-section="hero">
+        <div class="hero__inner">
+          <p class="eyebrow reveal">个人作品集</p>
+          <h1 class="hero__title reveal">邱超凡<br><span>软件工程专业学生</span></h1>
+          <p class="hero__lead reveal">
+            我叫邱超凡，是一名软件工程专业学生，目前主要关注 AI 辅助开发与大语言模型技术。
+            平时主要使用 Python、Java 和 TypeScript 进行项目开发，也在持续学习前后端开发、数据可视化和 AI 应用构建。
+          </p>
+          <div class="hero__actions reveal">
+            <a class="button button--primary" href="#projects">
+              查看作品
+              <span class="button__arrow" aria-hidden="true">→</span>
+            </a>
+            <a class="button button--ghost" href="mailto:2698877387@qq.com">联系我</a>
+          </div>
+          <dl class="hero__facts reveal">
+            <div>
+              <dt>专业</dt>
+              <dd>软件工程</dd>
+            </div>
+            <div>
+              <dt>方向</dt>
+              <dd>AI 辅助开发、大语言模型应用</dd>
+            </div>
+            <div>
+              <dt>技能</dt>
+              <dd>Python · Java · TypeScript · HTML/CSS</dd>
+            </div>
+            <div>
+              <dt>所在地</dt>
+              <dd>中国·广州</dd>
+            </div>
+          </dl>
+          <a class="scroll-cue reveal" href="#projects">
+            <span aria-hidden="true"></span>
+            向下浏览
+          </a>
+        </div>
+      </section>
+
+      <section class="section projects" id="projects" data-section="projects">
+        <div class="section__inner">
+          <header class="section__header">
+            <p class="eyebrow">Selected Works</p>
+            <div class="section__heading">
+              <h2>作品选辑</h2>
+              <p>以下项目按完成时间排列，完整展示项目简介、技术栈与完成时间。</p>
+            </div>
+          </header>
+
+          <div class="filter-bar" id="projectFilters" role="group" aria-label="按类别筛选项目"></div>
+          <p class="project-count" id="projectCount" aria-live="polite"></p>
+          <div class="project-list" id="projectList"></div>
+          <noscript>
+            <p class="noscript">请开启 JavaScript 以查看项目作品。</p>
+          </noscript>
+        </div>
+      </section>
+
+      <section class="section about" id="about" data-section="about">
+        <div class="section__inner">
+          <header class="section__header">
+            <p class="eyebrow">About</p>
+            <h2>关于我</h2>
+          </header>
+
+          <div class="about__grid">
+            <div class="about__main">
+              <p class="about__lead">
+                我叫邱超凡，是一名软件工程专业学生，目前主要关注 AI 辅助开发与大语言模型技术。
+              </p>
+              <p>
+                平时主要使用 Python、Java 和 TypeScript 进行项目开发，也在持续学习前后端开发、数据可视化和 AI 应用构建。
+              </p>
+            </div>
+
+            <aside class="about__facts" aria-label="快速了解">
+              <p class="sidebar__label">快速了解</p>
+              <dl>
+                <div>
+                  <dt>姓名</dt>
+                  <dd>邱超凡</dd>
+                </div>
+                <div>
+                  <dt>专业</dt>
+                  <dd>软件工程</dd>
+                </div>
+                <div>
+                  <dt>当前方向</dt>
+                  <dd>AI 辅助开发、大语言模型应用</dd>
+                </div>
+                <div>
+                  <dt>技能</dt>
+                  <dd>Python、Java、TypeScript、HTML/CSS</dd>
+                </div>
+                <div>
+                  <dt>所在城市</dt>
+                  <dd>中国·广州</dd>
+                </div>
+                <div>
+                  <dt>状态</dt>
+                  <dd>广州软件学院-在读</dd>
+                </div>
+              </dl>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact" data-section="contact">
+        <div class="section__inner">
+          <p class="eyebrow">Contact</p>
+          <h2 class="contact__title">联系方式</h2>
+          <p class="contact__lead">
+            可以通过以下方式联系我。
+          </p>
+          <a class="contact__email" href="mailto:2698877387@qq.com">2698877387@qq.com</a>
+          <div class="contact__actions">
+            <button class="button button--primary" type="button" data-copy="2698877387@qq.com">
+              <span class="copy-label">复制邮箱</span>
+            </button>
+            <a class="button button--ghost" href="mailto:2698877387@qq.com">写邮件</a>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <span>© <span id="year">2026</span> 邱超凡</span>
+        <span>Designed &amp; built with HTML / CSS / JavaScript</span>
+      </footer>
+    </main>
+  </div>
+
+  <button class="back-to-top" id="backToTop" type="button" aria-label="返回顶部">
+    <span aria-hidden="true">↑</span>
+  </button>
+
+  <script src="js/projects.js" defer></script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>
